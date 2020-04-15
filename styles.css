@@ -1,0 +1,146 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+body {
+  background: #ccc url(img/cool-background.png) center top no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: lem;
+  align-items: center;
+}
+
+.body-content {
+  margin-bottom: 100px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin: -2.5em 0 0 0;
+  z-index: 5;
+  background: #e0e0eb;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  text-align: left;
+  border: solid #7373a5;
+  border-right: none;
+  padding: 0.5em 0.5em 0.5em 2.5em;
+  box-shadow: 0 1px 3px black;
+  border-radius: 3em 0.5em 0.5em 3em;
+}
+
+.nav-header {
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  background: #e0e0eb;
+  opacity: 0.8;
+}
+
+.nav-title {
+  font-family: fantasy;
+  font-size: 32px;
+  color: darkslateblue;
+}
+
+.footer {
+  border-top: 1px solid #7373a5;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  background: #e0e0eb;
+  opacity: 0.8;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* contato */
+.meu_form {
+  margin-left: 30%;
+}
+
+form {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: #e0e0eb;
+  opacity: 0.8;
+  max-width: 500px;
+  align-items: center;
+  margin-left: 30%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #7373a5;
+  text-shadow: 5px 5px 5px rgb(56, 53, 53);
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+  border-color: #7a7a94;
+  box-shadow: 5px 0px 9px #9ba5bd;
+  background-color: #b7b7ce;
+  color: black;
+  font-weight: bold;
+}
+
+.submit input {
+  background-color: #7373a5;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  color: #bab4c5;
+  font-weight: bold;
+}
+/* fim contato */
