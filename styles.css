@@ -87,7 +87,7 @@ h2 {
 
 /* contato */
 
-form {
+.form {
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
   background-color: #e0e0eb;
@@ -97,73 +97,12 @@ form {
   padding-top: 25px;
 }
 
-h1 {
-  margin-bottom: 20px;
-  margin-left: 20px;
-  color: #7373a5;
-  text-shadow: 5px 5px 5px rgb(56, 53, 53);
-}
-
-input,
-textarea {
-  width: 400px;
-  padding: 10px;
-  color: black;
-  margin-left: 20px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border: 1px solid;
-}
-
-input:hover,
-textarea:hover,
-input:focus,
-textarea:focus {
-  border-color: #7a7a94;
-  box-shadow: 5px 0px 9px #9ba5bd;
-  background-color: #b7b7ce;
-  color: black;
-  font-weight: bold;
-}
-
-.submit input {
-  background-color: #7373a5;
-  height: 40px;
-  width: 100px;
-  font-weight: bold;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border: 1px solid;
-  color: black;
-  cursor: pointer;
-}
-
-textarea {
-  width: 400px;
-  height: 120px;
-  line-height: 20px;
-  max-width: 400px;
-}
-
-form label {
-  margin-left: 20px;
-  color: #bab4c5;
-  font-weight: bold;
-}
-/* fim contato */
-
 .body-content {
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1.5px;
   font-size: 18px;
   text-align: justify;
   padding: 15px 95px 15px 55px;
-}
-
-.container-home {
-  padding-top: 3%;
-  padding-bottom: 45%;
 }
 
 .container-saibamais {
@@ -184,49 +123,24 @@ form label {
   padding-right: 15px;
 }
 
-.container-noticias-1 {
-  width: 45%;
-  height: 315px;
-  box-shadow: 5px 0px 9px #cdd1db;
-  padding: 15px 15px 15px 15px;
-  background-color: rgba(223, 220, 236, 0.8);
-  text-align: center;
-  float: left;
-  margin-bottom: 15px;
+.container-home {
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin-bottom: 30px; */
+  /* margin-top: 15px; */
+  grid-gap: 24px;
+  list-style: none;
 }
 
-.container-noticias-2 {
-  width: 45%;
-  height: 45%;
+.container-noticias {
+  width: 90%;
+  height: 90%;
   box-shadow: 5px 0px 9px #cdd1db;
   padding: 15px 15px 15px 15px;
   background-color: rgba(223, 220, 236, 0.8);
   text-align: center;
-  float: right;
   margin-bottom: 15px;
-}
-
-.container-noticias-3 {
-  width: 45%;
-  height: 45%;
-  box-shadow: 5px 0px 9px #cdd1db;
-  padding: 15px 15px 15px 15px;
-  background-color: rgba(223, 220, 236, 0.8);
-  text-align: center;
-  float: left;
-  margin-bottom: 15px;
-}
-
-.container-noticias-4 {
-  width: 45%;
-  height: 45%;
-  box-shadow: 5px 0px 9px #cdd1db;
-  padding: 15px 15px 15px 15px;
-  background-color: rgba(223, 220, 236, 0.8);
-  text-align: center;
-  float: left;
-  margin-bottom: 15px;
-  margin-left: 115px;
 }
 
 .container-sobre {
