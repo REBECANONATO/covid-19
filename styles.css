@@ -127,14 +127,13 @@ h2 {
   padding-bottom: 5%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* margin-bottom: 30px; */
-  /* margin-top: 15px; */
   grid-gap: 24px;
   list-style: none;
 }
 
 .container-noticias {
   width: 90%;
+  max-width: 1180px;
   height: 90%;
   box-shadow: 5px 0px 9px #cdd1db;
   padding: 15px 15px 15px 15px;
@@ -144,6 +143,7 @@ h2 {
 }
 
 .container-sobre {
+  height: 390px;
   box-shadow: 5px 0px 9px #9ba5bd;
   padding: 15px 95px 15px 55px;
   background-color: rgba(186, 182, 207, 0.8);
